@@ -1,0 +1,781 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700;800;900&display=swap");
+
+/* Global css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html {}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Header Part */
+header {
+  background: url(../img/topBackground.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+  margin-bottom: -280px;
+}
+
+/* Main Header */
+.mainHeader {
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+.logoPart {
+  width: 40%;
+  float: left;
+  margin-left: 70px;
+}
+.logoPart:hover {
+  transform: scaleY(1.2);
+}
+.menuPart {
+  width: 50%;
+  float: left;
+  text-align: end;
+}
+.menuPart ul {
+  margin: 10px auto;
+}
+.menuPart li {
+  list-style: none;
+  display: inline-block;
+}
+.menuPart li:hover {
+  transform: scale(1.5);
+}
+.menuPart a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 25px;
+  color: white;
+}
+label {
+  display: none;
+  float: left;
+}
+#check {
+  z-index: 3;
+  display: none;
+}
+/* Hero Part */
+.hero {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.hero h1 {
+  padding-top: 75px;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+}
+.hero p {
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 15px;
+  color: white;
+}
+.hero a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin: 30px 15px;
+  padding: 3px 25px 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: transparent;
+  position: relative;
+  font-weight: 500;
+}
+.hero a:hover {
+  color: #000;
+  background: #fff;
+  transition: 1s;
+}
+.hero img {
+  display: block;
+  width: 200px;
+  margin: 40px auto;
+}
+
+/* Section One */
+#marketingPart1 {
+  background: url(../img/midBackground1.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  padding: 200px 0 50px;
+}
+.phoneImage {
+  float: left;
+  width: 30%;
+  align-items: center;
+  margin-left: 125px;
+  margin-top: 30px;
+}
+.phoneImage img {
+  display: block;
+  width: 200px;
+  margin: 40px auto;
+}
+.services {
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+}
+.plate {
+  background: #fff;
+  padding: 25px 0 15px;
+  width: 185px;
+  height: 205px;
+  box-shadow: 0px 3px 5px 1px #c7bbbbb3;
+}
+.plate img {
+  width: 28px;
+  margin-top: 12px;
+}
+.plate h2 {
+  font-size: 10px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: 600;
+}
+.plate p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #00000085;
+}
+.plate1 {
+  position: relative;
+  left: 67px;
+}
+.plate2 {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.plate3 {
+  position: relative;
+  margin-top: 50px;
+}
+.plate4 {
+  position: relative;
+  margin-left: 50px;
+  margin-top: 60px;
+  height: 215px;
+}
+
+/* Section two  */
+#marketingPart2 {
+  background: url(../img/midBackground2.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+}
+.textPart {
+  float: left;
+  width: 50%;
+  text-align: end;
+  margin-top: 106px;
+  padding: 0 95px;
+}
+.textPart h3 {
+  margin-bottom: 32px;
+  font-size: 20px;
+  color: #000000bd;
+}
+.textPart p {
+  font-size: 10px;
+  font-weight: 400;
+  color: #8d7f7fed;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.textPart a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin: 30px 15px;
+  padding: 8px 30px 15px;
+  font-size: 11px;
+  border-radius: 5px;
+  border: 1px solid #23c3f3;
+  background: #33d2fd;
+  position: relative;
+  font-weight: 500;
+}
+.textPart a:hover {
+  transform: scale(1.1);
+}
+.hoverSelection {
+  float: left;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0 30px;
+}
+.row {
+  background: #fff;
+  margin: 20px;
+  width: 390px;
+  padding: 20px 18px;
+  box-shadow: 0px 3px 5px 1px #c7bbbbb3;
+}
+.row:hover {
+  background: #23c3f3;
+  transition: 0.9s;
+  cursor: pointer;
+}
+.row img {
+  display: inline-block;
+  width: 20px;
+  position: absolute;
+}
+.row h3 {
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  margin-left: 31px;
+  color: #000000bd;
+}
+.row2 p {
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 6px;
+  color: #8d7f7fed;
+}
+.row2 p:hover {
+  color: #fff;
+}
+.row2 img {
+  width: 12px;
+  margin-top: -3px;
+  margin-left: 7px;
+}
+
+/* Section Three  */
+#marketingPart3 {
+  background: url(../img/midBackground3.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+}
+.compilerPic {
+  float: left;
+  width: 50%;
+  padding: 20px 10px;
+}
+.compilerPic img {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+.infoPart {
+  float: left;
+  width: 40%;
+  padding: 20px 6px;
+  margin-top: 62px;
+  margin-left: 106px;
+}
+.infoPart h4 {
+  font-size: 20px;
+  margin-bottom: 35px;
+  color: #000000bd;
+}
+.infoPart img {
+  display: block;
+  padding-bottom: 18px;
+  width: 62px;
+}
+.infoPart p {
+  font-size: 10px;
+  margin-top: 15px;
+  line-height: 23px;
+  color: #8d7f7fed;
+}
+
+/* Section Four  */
+#marketingPart4 {
+  background: url(../img/midBackground4.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+}
+.imagePart {
+  float: left;
+  width: 50%;
+  padding: 20px 10px;
+}
+.imagePart img {
+  display: block;
+  width: 200px;
+  margin-top: 53px;
+  margin-left: 208px;
+  margin-bottom: 35px;
+}
+.getNow {
+  float: left;
+  width: 40%;
+  padding: 20px 6px;
+  margin-top: 185px;
+}
+.getNow h5 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #000000a8;
+}
+.getNow p {
+  font-size: 10px;
+  line-height: 23px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.getNow img {
+  display: inline-block;
+  width: 110px;
+  height: 35px;
+  margin-right: 25px;
+}
+.getNow img:hover {
+  transform: scale(1.1);
+}
+.getApp {
+  position: absolute;
+  width: 303px;
+  height: 45px;
+  text-transform: uppercase;
+  background: linear-gradient(#fd7071, #f84979);
+  border: 0px;
+  margin-top: 167px;
+  margin-left: -454px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.getApp:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Section Five  */
+#contactUs {
+  background: url(../img/midBackground2.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+}
+.sammaryPart {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 180px;
+}
+.column {
+  float: left;
+  align-content: center;
+  margin: 50px;
+}
+.column h6 {
+  font-size: 11px;
+  font-weight: 600;
+  color: #000000d9;
+}
+.column p {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 20px;
+  color: #8d7f7fed;
+}
+.contactUs {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.contactUs h6 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #000000bd;
+}
+.contactUs p {
+  font-size: 10px;
+  margin-bottom: 40px;
+  color: #8a7575;
+}
+.contactUs input {
+  width: 385px;
+  height: 30px;
+  margin-right: 18px;
+  background: #f6f7fb;
+  border: none;
+  outline: none;
+}
+.contactUs button {
+  text-transform: uppercase;
+  width: 110px;
+  height: 30px;
+  background: #33d2fd;
+  border: none;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* Footer Part  */
+#footer {
+  background: url(../img/footerBG.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+#footer .container {
+  width: 100%;
+}
+.leftPart {
+  float: left;
+  width: 40%;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+.leftPart img {
+  width: 160px;
+}
+.iconPart {
+  float: left;
+  width: 30%;
+  margin-left: 258px;
+}
+.iconPart a {
+  display: inline-block;
+  margin-right: 40px;
+}
+.iconPart i {
+  font-size: 17px;
+  color: #fff;
+}
+.iconPart i:hover {
+  transform: scale(1.3);
+}
+.iconPart img {
+  width: 18px;
+}
+.iconPart img:hover {
+  transform: scale(1.3);
+}
+
+/* Responsive part   */
+@media (max-width: 760px) {
+  /* Header Part  */
+  header {
+    margin-bottom: -77px;
+  }
+  .logoPart {
+    margin-left: 12px;
+    width: 30%;
+  }
+  .logoPart img {
+    width: 80px;
+  }
+  .menuPart {
+    width: 210px;
+    margin: 0;
+    margin-left: 14px;
+  }
+  .menuPart a {
+    font-size: 12px;
+    margin: 0;
+    margin-right: 15px;
+  }
+  .hero h1 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+  }
+  .hero p {
+    font-size: 10px;
+  }
+  .hero img {
+    width: 100px;
+    margin: 0 121px;
+  }
+
+  /* Section One  */
+  #marketingPart1 {
+    display: block;
+    margin-top: -34px;
+    padding: 0;
+  }
+  .phoneImage {
+    width: 100px;
+    margin: 0;
+  }
+  .phoneImage img {
+    width: 80px;
+    margin-top: 113px;
+  }
+  .services {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+  .plate {
+    padding: 0;
+    margin: 0;
+    height: 85px;
+    width: 76px;
+  }
+  .plate img {
+    width: 15px;
+    padding: 0;
+    margin-top: 6px;
+  }
+  .plate h2 {
+    font-size: 8px;
+    margin: 0;
+  }
+  .plate p {
+    line-height: 7px;
+    font-size: 5px;
+  }
+  .plate1 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 80px;
+  }
+  .plate2 {
+    position: absolute;
+    margin-left: 136px;
+    margin-top: 89px;
+  }
+  .plate3 {
+    position: absolute;
+    margin-top: 177px;
+    margin-left: 17px;
+  }
+  .plate4 {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 201px;
+  }
+  /*Section Two */
+  .textPart {
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    margin-right: 12px;
+  }
+  .textPart h3 {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+  }
+  .textPart p {
+    line-height: 10px;
+    font-size: 5px;
+    margin: 0;
+  }
+  .textPart a {
+    font-size: 10px;
+    padding: 3px;
+    margin: 0;
+  }
+  .hoverSelection {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+  }
+  .row {
+    margin: 0;
+    width: 167px;
+    padding: 5px;
+    margin-top: 6px;
+  }
+  .row img {
+    width: 12px;
+  }
+  .row h3 {
+    font-size: 8px;
+  }
+  .row2 p {
+    font-size: 6px;
+    margin-left: 7px;
+  }
+  .row2 p:hover {
+    color: #fff;
+  }
+  .row2 img {
+    width: 8px;
+  }
+
+  /* Section Three  */
+  #marketingPart3 {
+    margin-top: 10px;
+  }
+  .compilerPic {
+    width: 20%;
+    padding: 0;
+  }
+  .compilerPic img {
+    width: 168px;
+    margin-top: 24px;
+    margin-left: 0;
+  }
+  .infoPart {
+    padding: 0;
+    margin-top: 18px;
+    margin-left: 135px;
+  }
+  .infoPart h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .infoPart img {
+    padding-bottom: 7px;
+    width: 55px;
+  }
+  .infoPart p {
+    font-size: 6px;
+    margin-top: 0;
+    line-height: 5px;
+  }
+
+  /* Section Four  */
+  .imagePart {
+    width: 30%;
+    padding: 0;
+    margin-top: 19px;
+    margin-left: 50px;
+    height: 188px;
+  }
+  .imagePart img {
+    display: block;
+    width: 75px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .getNow {
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    margin-left: 13px;
+  }
+  .getNow h5 {
+    font-size: 10px;
+    margin: 0;
+    margin-top: 57px;
+  }
+  .getNow p {
+    font-size: 8px;
+    line-height: 10px;
+    margin: 0px;
+  }
+  .getNow img {
+    display: inline-block;
+    width: 60px;
+    height: 18px;
+    margin: 0px;
+  }
+  .getApp {
+    width: 132px;
+    height: 25px;
+    margin-top: 53px;
+    margin-left: -178px;
+    font-size: 11px;
+  }
+
+  #contactUs {
+    padding: 0;
+    margin-top: 15px;
+  }
+  .sammaryPart {
+    margin: 0px;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 27px;
+  }
+  .column {
+    margin: 0px;
+    margin-left: 20px;
+  }
+  .column h6 {
+    font-size: 9px;
+  }
+  .column p {
+    font-size: 6px;
+    margin: 2px;
+    line-height: 9px;
+  }
+  .contactUs {
+    margin: 5px 0px;
+  }
+  .contactUs h6 {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  .contactUs p {
+    font-size: 7px;
+    margin-bottom: 10px;
+  }
+  .contactUs input {
+    width: 200px;
+  }
+  .contactUs button {
+    width: 90px;
+    height: 30px;
+    font-size: 8px;
+  }
+
+  /* Footer Part  */
+  #footer {
+    padding: 0px;
+  }
+  #footer .container {
+    width: 100%;
+  }
+  .leftPart {
+    margin-left: 20px;
+    margin-top: 12px;
+  }
+  .leftPart img {
+    width: 123px;
+  }
+  .iconPart {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    width: 40%;
+  }
+  .iconPart a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .iconPart i {
+    font-size: 14px;
+    color: #fff;
+  }
+  .iconPart img {
+    width: 14px;
+  }
+}
